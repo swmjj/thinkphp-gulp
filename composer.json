@@ -1,0 +1,39 @@
+{
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0.0",
+        "topthink/think-view": "^1.0",
+        "topthink/think-orm": "^2.0",
+        "topthink/think-multi-app": "*",
+        "phpoffice/phpspreadsheet": "1.17.1",
+        "aliyuncs/oss-sdk-php": "~2.0",
+        "intervention/image": "^2.5",
+        "endroid/qr-code": "^3.6",
+        "yansongda/pay": "*",
+        "overtrue/wechat": "*",
+        "google/protobuf":"*",
+        "jasongrimes/paginator":"~1.0",
+        "elasticsearch/elasticsearch": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2",
+        "topthink/think-trace":"^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php think service:discover",
+            "@php think vendor:publish"
+        ]
+    }
+}

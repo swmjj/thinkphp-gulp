@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="Bituni-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="已登录-账户" transform="translate(-487.000000, -528.000000)">
+            <g id="编组-6" transform="translate(406.000000, 240.000000)">
+                <g id="编组" transform="translate(45.000000, 118.000000)">
+                    <g id="法律与隐私icon" transform="translate(36.000000, 170.000000)">
+                        <rect id="矩形" x="0" y="0" width="24" height="24"></rect>
+                        <path d="M16.5,4 C17.6045695,4 18.5,4.8954305 18.5,6 L18.5,20 C18.5,21.1045695 17.6045695,22 16.5,22 L4.5,22 C3.3954305,22 2.5,21.1045695 2.5,20 L2.5,6 C2.5,4.8954305 3.3954305,4 4.5,4 L16.5,4 Z" id="Rectangle" fill="#308EFF" fill-rule="nonzero"></path>
+                        <rect id="Rectangle" fill="#FFFFFF" transform="translate(10.900000, 11.000000) rotate(-90.000000) translate(-10.900000, -11.000000) " x="10" y="7" width="1.8" height="8" rx="0.9"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" transform="translate(8.900000, 15.000000) rotate(-90.000000) translate(-8.900000, -15.000000) " x="8" y="13" width="1.8" height="4" rx="0.9"></rect>
+                        <path d="M6.9,1.99456631 L16.544434,1.99456631 C18.753573,1.99456631 20.544434,3.78542731 20.544434,5.99456631 L20.544434,18.0748879 L20.544434,18.0748879" id="路径" stroke="#308EFF" stroke-width="1.6" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

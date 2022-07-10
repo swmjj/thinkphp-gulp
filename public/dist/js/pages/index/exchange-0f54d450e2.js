@@ -1,0 +1,1 @@
+"use strict";$(function(){var c="BTU",i="USDT";$(".exchange-icon-img").click(function(){var n;c=(n=[c,i])[1],i=n[0],$("#exchange-from").html(c),$("#exchange-to").html(i)}),$("#exchange-link-wallet").click(function(){$.walletLinkInit&&$.walletLinkInit()}),$("#exchange-submit").click(function(){alert("提交兑换申请")})});

@@ -1,0 +1,32 @@
+@import "../../var";
+body {
+  background: #f7f8fa;
+}
+
+.order-panel {
+  @include panel-block;
+  width: 596px;
+}
+
+.order-panel-title {
+  @include panel-title;
+}
+
+.order-detail {
+  margin-top: 43px;
+}
+
+.order-detail-item {
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #000000;
+  line-height: 32px;
+}
+
+.order-submit-area {
+  margin-top: 68px;
+}
+.order-submit-btn {
+  @include panel-button;
+}

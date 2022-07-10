@@ -1,0 +1,74 @@
+{extend name='layouts/defalut'/}
+
+{block name='content'}
+<div class="exchange-panel">
+    <div class="exchange-panel-title">兑换</div>
+    <div class="exchange-form">
+        <div class="exchange-form-item">
+            <label class="exchange-form-label">
+                <input class="exchange-form-input" placeholder="0.00" />
+                <span class="exchange-coin" id="exchange-from">BTU</span>
+            </label>
+        </div>
+        <div class="exchange-form-icon">
+            <img src="IMAGE/index/change.svg" class="exchange-icon-img" />
+        </div>
+        <div class="exchange-form-item">
+            <label class="exchange-form-label">
+                <input class="exchange-form-input" placeholder="0.00" />
+                <span class="exchange-coin" id="exchange-to">USDT</span>
+            </label>
+        </div>
+    </div>
+    <?php $logined = 0; ?>
+
+    {if condition="$logined == 1"}
+    <div class="exchange-rate">
+        <img src="IMAGE/index/about.svg" class="exchange-rate-icon" />
+        <span>1 USDT = 100 BTU</span>
+    </div>
+    <div class="exchange-submit-area">
+        <a href="#" class="exchange-submit-btn" id="exchange-submit">确定</a>
+    </div>
+    <div class="exchange-tips">当前支持polygon网络</div>
+    {else/}
+    <div class="exchange-submit-area">
+        <a href="#" class="exchange-submit-btn" id='exchange-link-wallet'>链接钱包</a>
+    </div>
+    {/if}
+</div>
+
+{if condition = "$logined != 1"}
+<div class="exchange-language">语言：简体中文</div>
+{/if}
+
+<script>
+$(function() {
+    let exchangeFrom = "BTU"
+    let exchangeTo = "USDT"
+
+    function changeReceiver(from, to) {
+        [to, from] = [from, to]
+        exchangeFrom = from
+        exchangeTo = to
+        $("#exchange-from").html(exchangeFrom)
+        $("#exchange-to").html(exchangeTo)
+    }
+
+    $('.exchange-icon-img').click(function() {
+        changeReceiver(exchangeFrom, exchangeTo)
+    })
+
+    // 未登录，唤醒链接钱包面板
+    $('#exchange-link-wallet').click(function() {
+        $.walletLinkInit && $.walletLinkInit()
+    })
+
+    // 提交转换
+    $('#exchange-submit').click(function() {
+        alert("提交兑换申请")
+    })
+
+})
+</script>
+{/block}

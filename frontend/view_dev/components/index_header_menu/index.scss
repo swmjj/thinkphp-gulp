@@ -1,0 +1,189 @@
+.index-header-placeholder {
+  height: 80px;
+}
+
+.index-header-menu-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+}
+
+.index-header {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.index-header-nav {
+  margin-left: 53px;
+  display: flex;
+  flex: 1;
+}
+
+.index-header-nav-item {
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 20px;
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.index-header-menu {
+  display: flex;
+}
+
+.wallet-link {
+  padding: 0 20px;
+  height: 36px;
+  background: #308eff;
+  border-radius: 19px;
+  line-height: 36px;
+  text-align: center;
+
+  font-size: 14px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.index-more {
+  margin-left: 17px;
+  position: relative;
+
+  .index-more-content {
+    width: 72px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 19px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.header-tabs-nav {
+  align-items: center;
+  justify-content: center;
+}
+
+.header-tabs {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 42px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 4px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -4px;
+  margin-top: 3px;
+}
+
+.header-tabs-item {
+  // width: 68px;
+  height: 34px;
+  border-radius: 6px 0px 0px 6px;
+  line-height: 34px;
+  padding: 0 20px;
+  color: #828c99;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  cursor: pointer;
+
+  &--active {
+    font-weight: 500;
+    background: #f7f8fa;
+    color: #09121b;
+    font-family: PingFangSC-Medium, PingFang SC;
+  }
+}
+
+.header_white {
+  .wallet-link {
+    background: #ffffff;
+    border-radius: 19px;
+    font-weight: 500;
+    color: #308eff;
+  }
+
+  .index-more {
+    .index-more-content {
+      background: #ffffff;
+      border-radius: 19px;
+      font-size: 14px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 500;
+      color: #0b121a;
+    }
+  }
+}
+
+// 下拉菜单
+.header-dropdown {
+  display: none;
+  position: absolute;
+  top: 90%;
+  right: 0;
+  padding-top: 30px;
+}
+
+.header-dropdown-wrap {
+  position: relative;
+  width: 136px;
+  background-color: #ffffff;
+  border-radius: 8px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: -8px;
+    width: 18px;
+    height: 8px;
+    background: url("/dist/images/menu/arrow.png") no-repeat 50% 50%;
+    background-size: cover;
+  }
+}
+.header-dropdown-item {
+  display: block;
+  height: 40px;
+  text-indent: 10px;
+
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #09121b;
+
+  line-height: 40px;
+  text-decoration: none;
+  position: relative;
+  .dropdown-item-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

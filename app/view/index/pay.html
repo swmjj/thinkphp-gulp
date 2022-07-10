@@ -1,0 +1,41 @@
+{extend name='layouts/defalut'/}
+
+{block name="content"}
+<div class="pay-panel">
+
+    <?php $payStatus = 'success'; ?>
+
+    {if condition="$payStatus == 'success'"}
+    <div class="pay-panel-title">订单成功4</div>
+    <div class="pay-detail">
+        <div class="pay-status">
+            <img src="IMAGE/index/success.svg" class="pay-status-icon" />
+        </div>
+    </div>
+    <div class="pay-submit-area">
+        <a href="#" class="pay-submit-btn" id="pay-submit">返回</a>
+    </div>
+    {else/}
+    <div class="pay-panel-title">订单失败</div>
+    <div class="pay-detail">
+        <div class="pay-status">
+            <img src="IMAGE/index/error.svg" class="pay-status-icon" />
+        </div>
+    </div>
+    <div class="pay-submit-area">
+        <a href="#" class="pay-submit-btn" id="pay-submit">返回</a>
+    </div>
+    {/if}
+
+</div>
+{/block}
+        
+{block name="js"}
+<script src="JS/pages/index/pay-8971778a9c.js"></script>
+{/block}
+        
+        
+{block name="style"}
+<link href="CSS/pages/index/pay-c188712bd9.css" rel="stylesheet" type="text/css" />
+{/block}
+        

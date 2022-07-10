@@ -1,0 +1,22 @@
+@import "_reset.scss";
+@import "_tool.scss";
+@import "_layout.scss";
+@import "_components.scss";
+
+// 弹层组件
+
+.modal-wrap {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 24px;
+}
+
+.modal-title {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 22px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #000000;
+  line-height: 30px;
+}

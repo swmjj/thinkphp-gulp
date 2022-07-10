@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="Bituni-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bituni未登录" transform="translate(-1240.000000, -94.000000)">
+            <g id="编组-15" transform="translate(1134.000000, 67.000000)">
+                <g id="关于icon" transform="translate(106.000000, 27.000000)">
+                    <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                    <circle id="椭圆形" stroke="#09121B" stroke-width="1.33333333" cx="10" cy="10" r="8.08333333"></circle>
+                    <path d="M9.97731313,7.91666667 C10.3915267,7.91666667 10.7273131,8.2524531 10.7273131,8.66666667 L10.7273131,14.25 C10.7273131,14.6642136 10.3915267,15 9.97731313,15 C9.56309957,15 9.22731313,14.6642136 9.22731313,14.25 L9.22731313,8.66666667 C9.22731313,8.2524531 9.56309957,7.91666667 9.97731313,7.91666667 Z" id="矩形" fill="#09121B" transform="translate(9.977313, 11.458333) rotate(-360.000000) translate(-9.977313, -11.458333) "></path>
+                    <rect id="矩形" fill="#09121B" transform="translate(10.000000, 5.833333) rotate(-360.000000) translate(-10.000000, -5.833333) " x="9.16666667" y="5" width="1.66666667" height="1.66666667" rx="0.833333333"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,58 @@
+.account-link {
+  width: 596px;
+  display: none;
+}
+
+.account-link-box {
+  margin: 48px auto 10px;
+  width: 506px;
+  background: #f7f8fa;
+  border-radius: 16px;
+  border: 1px solid #308eff;
+  padding: 0 36px;
+  box-sizing: border-box;
+}
+
+.account-link-state {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-link-tips {
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #000000;
+  line-height: 25px;
+}
+
+.account-link-btn {
+  font-size: 16px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #308eff;
+  text-decoration: none;
+}
+
+.account-link-address {
+  margin-top: 28px;
+  font-size: 22px;
+  font-family: PingFangSC-Semibold, PingFang SC;
+  font-weight: 600;
+  color: #000000;
+  line-height: 30px;
+}
+
+.account-link-copy {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+  .account-link-btn {
+    margin-left: 1px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../var";
+
+body {
+  background: #f7f8fa;
+}
+
+.pay-panel {
+  @include panel-block;
+  width: 596px;
+}
+
+.pay-panel-title {
+  @include panel-title;
+}
+
+.pay-detail {
+  margin-top: 43px;
+}
+.pay-status {
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+.pay-submit-area {
+  margin-top: 54px;
+  margin-bottom: 38px;
+}
+.pay-submit-btn {
+  @include panel-button;
+}
